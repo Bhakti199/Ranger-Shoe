@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --dark-black: #292524;
+  --darkest-grey: #44403c;
+  --darker-grey: #57534e;
+  --dark-grey: #78716c;
+  --medium-grey: #a8a29e;
+  --light-grey: #e2e8f0;
+  --dark-blue: #3b82f6;
+  --medium-blue: #60a5fa;
+  --light-blue: #93c5fd;
+  --lighter-blue: #bfdbfe;
+  --lightest-blue: #dbeafe;
+  --grey-forImage: #cbd5e1;
+  --dark-green: #15803d;
+}
+html {
+  font-size: 100%;
+}
+
+/* utility classes */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* landing page */
+.navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.landing-page {
+  margin-top: 4.3rem;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 3rem;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.deal-heading {
+  text-align: center;
+  color: var(--dark-black);
+}
+
+.search-bar-container {
+  padding: 0.5rem 0;
+  justify-content: center;
+}
+
+/* deals of the day */
+
+.deals-of-the-day {
+  min-width: 80%;
+  height: 13rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.deal-img {
+  height: 20rem;
+  width: 27rem;
+}
+
+.deal-text {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  color: var(--dark-green);
+}
+/* search */
+
+.search {
+  background-color: var(--light-grey);
+  padding: 0.4rem 1rem;
+  width: 20rem;
+  border-radius: 3px;
+}
+.search-input {
+  color: var(--darkest-grey);
+  padding: 0.3rem;
+  text-align: left;
+  font-size: 1rem;
+  border-radius: 3px;
+  padding: 3px;
+  background-color: var(--light-grey);
+  border: none;
+  outline: none;
+  width: 14rem;
+}
+
+.search-icon {
+  color: var(--dark-grey);
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}

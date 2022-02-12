@@ -20,6 +20,7 @@ body {
   --light-blue: #93c5fd;
   --lighter-blue: #bfdbfe;
   --lightest-blue: #dbeafe;
+  --blue-bg-color: #eff6ff;
   --grey-forImage: #cbd5e1;
   --dark-green: #15803d;
 }
@@ -63,7 +64,7 @@ html {
 
 .landing-page {
   margin-top: 4.3rem;
-  height: 100%;
+  height: 100vh;
   box-sizing: border-box;
   padding-bottom: 3rem;
 }
@@ -197,9 +198,17 @@ html {
   padding: 1rem;
   margin: 5rem 1rem 1rem 18.7rem;
   height: 100%;
+  background-color: var(--blue-bg-color);
 }
 .products {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+/* login signup page */
+
+.form-page {
+  padding-top: 2rem;
+  align-items: center;
+  background-color: var(--blue-bg-color);
 }

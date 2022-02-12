@@ -21,7 +21,7 @@
       <nav class="nav-standard flex navigation">
         <ul class="nav-standard-item-sectionOne flex list">
           <li class="nav-standard-list-item min-bold">
-            <a href="#" class="ranger-ui navbar-name">RangerShoe</a>
+            <a href="/index.html" class="ranger-ui navbar-name">RangerShoe</a>
           </li>
           <li class="nav-standard-list-item min-bold">
             <a href="/product-page.html">Men</a>
@@ -34,8 +34,8 @@
             </li>
           </ul>
         <ul class="nav-standard-item-sectionTwo flex list">
-          <li class="nav-standard-list-item min-bold"><a href="/login-page.html">LOGIN / SIGNUP</a>
-           </li>
+          <li class="nav-standard-list-item min-bold"><a href="/sign-up-page.html">SIGNUP</a>
+              </li>
           <li class="nav-standard-list-item min-bold">
             <button class="badge-on-icon">
               <i class="far fa-heart icon-badge"></i>
@@ -56,51 +56,34 @@
           
         </ul>
       </nav>
-      <div class="landing-page flex-col">
-          <div class="search-bar-container flex"> 
-            <div class="search flex-row">
-              <i class="search-icon fa-solid fa-magnifying-glass"></i>
-              <input class="search-input" type="text" placeholder="Search for brands and more">
+      <div class="landing-page flex-col form-page">
+        <div class="login-form flex-col-center">
+            <h1 class="margin-top-bottom-zero form-title">Login</h1>
+            <div class="flex-col-center form-input-wrapper">
+              <input
+                type="text"
+                placeholder="Enter Mobile number / Email"
+                class="form-input"
+              />
+              <input
+                type="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
             </div>
+            <p class="privacy-notice flex">
+              <input type="checkbox" />
+              By continuing, I agree to the terms of use & Privacy Policy.
+            </p>
+            <button class="primary-btn-lg">Login</button>
+            <p>
+              <a href="/sign-up-page.html" class="sign-up-msg"
+                >New to <span class="ranger-ui ranger-name">RangerShoe</span> ,
+                Create an account
+              </a>
+              <i class="fa-solid fa-angle-right"></i>
+            </p>
           </div>
-        
-         <div class="landing-page-img">
-           <a href="/product-page.html">
-            <img src="/images/main-img.png" alt="landing-page" class="responsive-img">
-           </a>
-          
-         </div>
-
-         <h1 class="deal-heading">Deals of the day</h1>
-
-         <div class="deals-of-the-day flex-row-center">
-
-            <div class="deal-img">
-              <a href="/product-page.html">
-                <img class="responsive-img" src="/images/deal-1.jpg" alt="product">
-                <p class="deal-text">upto 20% off</p>
-              </a>
-              
-            </div>  
-            
-            <div class="deal-img">
-              <a href="/product-page.html">
-                <img class="responsive-img" src="/images/deal-2.jpg" alt="product">
-                <p class="deal-text">upto 33% off</p>
-              </a>
-              
-            </div>
-            
-            <div class="deal-img">
-              <a href="/product-page.html">
-                <img class="responsive-img" src="/images/deal-3.jpg" alt="product">
-                <p class="deal-text">upto 50% off</p>
-              </a>
-              
-            </div>
-         
-          </div>
-
      
            
       </div>

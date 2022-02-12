@@ -52,7 +52,9 @@ html {
 .wrap {
   flex-wrap: wrap;
 }
-
+.bg-color {
+  background-color: var(--blue-bg-color);
+}
 /* landing page */
 .navigation {
   position: fixed;
@@ -211,4 +213,22 @@ html {
   padding-top: 2rem;
   align-items: center;
   background-color: var(--blue-bg-color);
+}
+
+/* cart management page */
+.cart-page-title {
+  padding-top: 1rem;
+  color: var(--dark-black);
+  text-align: center;
+}
+.cart-page {
+  justify-content: center;
+  gap: 2rem;
+}
+.cart-item-container {
+  gap: 1rem;
+}
+.avatar-sm {
+  margin-left: auto;
+  margin-right: 3rem;
 }

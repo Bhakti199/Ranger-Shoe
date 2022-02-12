@@ -68,7 +68,6 @@ html {
   margin-top: 4.3rem;
   height: 100vh;
   box-sizing: border-box;
-  padding-bottom: 3rem;
 }
 
 .responsive-img {
@@ -216,12 +215,14 @@ html {
 }
 
 /* cart management page */
-.cart-page-title {
+.cart-page-title,
+.wishlist-page-title {
   padding-top: 1rem;
   color: var(--dark-black);
   text-align: center;
 }
-.cart-page {
+.cart-page,
+.wishlist-page {
   justify-content: center;
   gap: 2rem;
 }

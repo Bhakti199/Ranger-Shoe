@@ -130,12 +130,6 @@ html {
   color: var(--dark-grey);
 }
 
-@media only screen and (max-width: 500px) {
-  html {
-    font-size: 50%;
-  }
-}
-
 /* product page */
 
 .drawer {
@@ -232,4 +226,9 @@ html {
 .avatar-sm {
   margin-left: auto;
   margin-right: 3rem;
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 62.5%;
+  }
 }

@@ -1,6 +1,6 @@
 # RangerShoe
 
-## RangerShoe is an e-commerce website for shoes. It includes various features mentioned below.
+RangerShoe is an e-commerce website for shoes. It includes various features mentioned below.
 
 # Features
 

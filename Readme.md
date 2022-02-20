@@ -1,8 +1,8 @@
-#RangerShoe
+# RangerShoe
 
 ## RangerShoe is an e-commerce website for shoes. It includes various features mentioned below.
 
-#Features
+# Features
 
 1. [Home page](https://ranger-shoe-shop.netlify.app/)
 2. [Product listing page](https://ranger-shoe-shop.netlify.app/product-page.html)
